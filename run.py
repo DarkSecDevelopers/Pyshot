@@ -2,6 +2,8 @@ import os
 from sys import exit
 
 os.system('cls')
+print('To send an email you must have less secure apps enabled in your account \nhttps://myaccount.google.com/lesssecureapps')
+print('\n')
 os.system('copy Template\shot.py .\shot.py >nul')
 email = input('Enter your email: ')
 passd =  input('Enter your password: ')
