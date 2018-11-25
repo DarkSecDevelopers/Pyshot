@@ -17,5 +17,7 @@ f.close()
 os.system('pyinstaller --noconsole --onefile -F shot.py')
 os.system('rmdir /S /Q build __pycache__')
 os.system('del shot.py shot.spec')
+print('cls')
+print('Saved in dist\shot.exe')
 exit(0)
 
