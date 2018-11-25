@@ -8,7 +8,7 @@ send screenshots to given email address
 
 ## HOW TO INSTALL
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 
