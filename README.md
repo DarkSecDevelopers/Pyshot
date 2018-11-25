@@ -1,7 +1,7 @@
 # remote-shot
 send screenshots to given email address
 
-#Things you need
+<b>Things you need<b>
 Windows
 python 3.5
 
