@@ -1,14 +1,14 @@
-# remote-shot
+# remote-shot#
 send screenshots to given email address
 
-<b>Things you need<b>
-Windows
-python 3.5
+#<b>Things you need#
+<h4>Windows<h4>
+<h4>python 3.5<h4>
 
 
-#Installation
-pip install requirements.txt
+#Installation#
+`pip install requirements.txt`
 
 
-#How to run
+#How to run#
 `python run.py' 
