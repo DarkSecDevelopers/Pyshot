@@ -1,5 +1,5 @@
-### remote-shot
-send screenshots to given email address
+### Pyshot
+Send screenshots to given email address
 
 ### Things you need
 * Windows
