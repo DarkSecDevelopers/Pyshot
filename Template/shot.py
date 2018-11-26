@@ -5,6 +5,12 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
+import win32event, win32api, winerror
+
+ironm = win32event.CreateMutex(None, 1, 'NOSIGN')
+if win32api.GetLastError() == winerror.ERROR_ALREADY_EXISTS:
+    ironm = None
+    sys.exit()
 
 
 def shot():
